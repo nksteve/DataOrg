@@ -145,7 +145,7 @@ export default function Explorer({ onSignOut }) {
   return (
     <div className="app-shell">
       <aside className={`sidebar${sidebarOpen ? '' : ' collapsed'}`}>
-        <div className="sidebar-title">MyVault</div>
+        <div className="sidebar-title">DataOrg</div>
         <TreeNode
           file={ROOT_NODE}
           depth={0}

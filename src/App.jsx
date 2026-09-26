@@ -17,7 +17,7 @@ export default function App() {
     return (
       <div className="signin-screen">
         <div className="signin-card">
-          <h1>MyVault</h1>
+          <h1>DataOrg</h1>
           <p>Your document archive, in one place.</p>
           {authError && <p className="error-text">Sign-in failed: {authError}</p>}
           <button className="btn primary" onClick={signIn}>Sign in with Google</button>

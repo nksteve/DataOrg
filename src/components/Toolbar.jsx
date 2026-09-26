@@ -8,7 +8,7 @@ export default function Toolbar({ onNewFolder, onUpload, onSearch, onSignOut }) 
     <div className="toolbar">
       <input
         className="search-input"
-        placeholder="Search MyVault..."
+        placeholder="Search DataOrg..."
         value={term}
         onChange={(e) => {
           setTerm(e.target.value)

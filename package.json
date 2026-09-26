@@ -1,5 +1,5 @@
 {
-  "name": "myvault",
+  "name": "dataorg",
   "version": "1.0.0",
   "description": "Personal document vault - treeview browser/editor for a Google Drive folder",
   "type": "module",

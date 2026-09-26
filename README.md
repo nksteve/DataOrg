@@ -1,4 +1,4 @@
-# MyVault
+# DataOrg
 
 Treeview browser/editor for the "2nd" Google Drive folder (healthcare, finances,
 property, vehicles, IDs, work, travel, disputes, etc). React + Vite, deployed to
@@ -14,19 +14,19 @@ so it works from a phone browser too.
 
 ## One-time setup: Google OAuth Client ID
 
-MyVault needs an OAuth Client ID so Google will let it ask you to sign in.
+DataOrg needs an OAuth Client ID so Google will let it ask you to sign in.
 This only needs to be done once.
 
-1. Go to https://console.cloud.google.com/ and create a new project (or pick an existing one), e.g. "MyVault".
+1. Go to https://console.cloud.google.com/ and create a new project (or pick an existing one), e.g. "DataOrg".
 2. In the left menu: **APIs & Services -> Enabled APIs & services -> + Enable APIs and services**. Search for "Google Drive API" and enable it.
 3. **APIs & Services -> OAuth consent screen**:
    - User type: **External**
-   - App name: MyVault, your email as support/developer contact
+   - App name: DataOrg, your email as support/developer contact
    - Publishing status: leave as **Testing** (no Google verification needed this way)
    - Under "Test users", add `nksteve@gmail.com`
 4. **APIs & Services -> Credentials -> + Create credentials -> OAuth client ID**:
    - Application type: **Web application**
-   - Name: MyVault
+   - Name: DataOrg
    - Authorized JavaScript origins, add both:
      - `http://localhost:3010`
      - `https://nksteve.github.io`
@@ -55,4 +55,4 @@ authorized origins, per step 4 above).
 Push to `main` - a GitHub Action builds and publishes to GitHub Pages automatically.
 First-time only: in the repo's Settings -> Pages, set Source to "GitHub Actions".
 
-The live app will be at https://nksteve.github.io/MyVault/
+The live app will be at https://nksteve.github.io/DataOrg/

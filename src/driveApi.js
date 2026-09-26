@@ -2,7 +2,7 @@ import { GOOGLE_CLIENT_ID, DRIVE_SCOPE } from './config'
 
 const API_BASE = 'https://www.googleapis.com/drive/v3'
 const UPLOAD_BASE = 'https://www.googleapis.com/upload/drive/v3'
-const TOKEN_STORAGE_KEY = 'myvault_token'
+const TOKEN_STORAGE_KEY = 'dataorg_token'
 
 let tokenClient = null
 let onAuthChange = () => {}
