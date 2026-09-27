@@ -3,7 +3,7 @@
 // Authorized JavaScript origins must include:
 //   http://localhost:3010          (for local dev)
 //   https://nksteve.github.io      (for the deployed app)
-export const GOOGLE_CLIENT_ID = 'PUT_YOUR_OAUTH_CLIENT_ID_HERE.apps.googleusercontent.com'
+export const GOOGLE_CLIENT_ID = '961052794144-geied8i0ir8h2pi4qafgdao5dj5p5kq5.apps.googleusercontent.com'
 
 // Full Drive scope is required because DataOrg browses/edits files that
 // already exist in Drive, not just files it created itself (drive.file
